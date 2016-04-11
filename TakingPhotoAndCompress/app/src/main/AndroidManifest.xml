@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="www.seven.com.takingphotoandcompress">
+
+    <!--在这里声明需要相机，会让没有相机的手机无法安装app-->
+    <!--可以在run time 通过hasSystemFeature(PackageManager.FEATURE_CAMERA) 检查是否有相机-->
+    <!--<uses-feature android:required="true" android:name="android.hardware.Camera2" />-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
