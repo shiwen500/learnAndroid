@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">安卓6.0</string>
+
+    <string-array name="demo_name" >
+        <item >Activity过度动画</item>
+    </string-array>
+</resources>

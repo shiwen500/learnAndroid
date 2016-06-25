@@ -20,4 +20,11 @@
         android:layout_below="@id/take_photo"
         android:layout_width="100dp"
         android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:lines="3"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
